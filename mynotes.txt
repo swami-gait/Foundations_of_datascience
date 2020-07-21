@@ -1,0 +1,47 @@
+Measures of centrality 
+Question : What is the typical value of an attribute in our dataset ?
+
+Notation :
+
+Mean from sample : x-bar
+Mean from population : Mu
+
+Mean : Centre of gravity
+
+Sensitivity of mean to outliers :
+Mean is sensitive to the outliers 
+Median is not sensitive
+
+Calculate trimmed  mean to overcome/avoid the effects of outliers on mean.
+This is done by dropping the same number of extreme values from both the ends of the data points
+
+Median
+
+Mode
+
+
+What do the measures of centrality look like for different types of distributions ?
+
+For unimodal symmetric distributions mean = median = mode
+For bimodal and multimodal symmetric distributions, mean = median but mode will be different 
+
+
+Skewed distributions :
+
+Left skewed distriution : mean <median <mode
+Right skewed distribution : mode < median < mean
+This is true except when there is a heavy tail on either side or if the distribution is bimodal/multimodal
+
+
+Calculating median and mean based on a histogram
+
+Calculating the mode from a histogram is not possible if binsize is more than 1
+
+Measures of centrality could be the same for two sets of data ... but the variability might be different. Measures of spread will help understand that
+
+Range is very sensitive to outliers - Similar to mean
+
+
+Variance is a measure of consistency
+
+
